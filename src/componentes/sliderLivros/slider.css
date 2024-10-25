@@ -1,0 +1,30 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide {
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: transform 0.2s; /* Transição suave */
+}
+
+.slick-dots {
+    opacity: 0;
+    bottom: -30px; /* Ajusta a posição dos pontos de navegação */
+}
+
+.slick-dots li button:before {
+    font-size: 12px; /* Tamanho dos pontos de navegação */
+    color: #333; /* Cor dos pontos */
+}
+
+.slick-prev, .slick-next {
+    font-size: 24px; /* Tamanho dos botões de navegação */
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 24px; /* Tamanho dos ícones de navegação */
+    color: #000000; /* Cor dos ícones */
+}

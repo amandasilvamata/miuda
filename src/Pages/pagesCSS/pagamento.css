@@ -1,0 +1,294 @@
+.container23pagamento{
+    width: 100%;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    margin-top: 50px;
+
+}
+.dadosdopedido{
+    color: #000;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+.paipagamento{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container3pagamento{
+    width: 532px;
+    height: 950px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: white;
+    margin-top: 50px;
+}
+.container23pagamento{
+    width: 532px;
+    height: 916px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    
+    margin-top: 50px;
+}
+main .img1pagamento{
+    width: 115px;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .livro1pagamento{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .livro1pagamento .frente1pagamento{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 132px;
+    height: 163px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro1pagamento .inferior1pagamento{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 132px;
+    height: 28px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro1pagamento .folhas1pagamento{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    width: 117px;
+    height: 16px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro1pagamento .marcador1pagamento{
+    position: relative;
+    top: -76px;
+    left: 90px;
+    width: 20px;
+    height: 33px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+.line1pagamento{
+    width: 532px;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+.line2pagamento{
+    width: 532px;
+    height: 3px;
+    background: black
+}
+.line3pagamento{
+    width: 532px;
+    height: 3px;
+    background: black;
+}
+/* .livro1pagamento{
+
+} */
+.banana1pagamento{
+    display: flex;
+}
+.diario1pagamento{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: "Titillium Web";
+    
+}
+.custopagamento{
+    color: #000;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "Titillium Web";
+}
+.nomepagamento{
+    color: white;
+    width: 50px;
+}
+.dadospagamento{
+    color: wh;
+    
+}
+.nomecompleto{
+        margin-top: 50px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 450px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+    }
+.celular{
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 450px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.telefone{
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 450px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.cep{
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.complemento{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.endereco{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.alterar{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 50px;
+        color: black;
+        border-radius: 15px;
+}
+.bairro{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+
+}
+.saopaulo{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.numero{
+    margin-top: 10px;
+        margin-left: 10px;
+        background-color:#FFF;
+        width: 220px;
+        height: 60px;
+        color: black;
+        border-radius: 15px;
+}
+.dadospagamento button{
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+.paypagamento{
+    margin-left: 30px;
+    margin-top: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48.67px;
+    text-align: justify;
+
+}
+.credito{
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 60px;
+    border-radius: 0.9375rem;
+    background: #FFF;   
+    
+
+}
+.boleto{
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 60px;
+    border-radius: 0.9375rem;
+    background: #FFF;   
+}
+.pix{
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 60px;
+    border-radius: 0.9375rem;
+    background: #FFF;
+    text-align: justify; 
+
+}
+.credito p{
+    text-align: center;
+}
+.boleto p{
+    color: #FFF;
+}
+.pix .woloko {
+    color: #FFF;
+}
+
+

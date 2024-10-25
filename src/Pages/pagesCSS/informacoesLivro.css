@@ -1,0 +1,210 @@
+/* Estilos gerais */
+
+/* Container principal */
+.livro-info-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Seção principal de informações do livro */
+.livro-information {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Estilo da imagem do livro */
+.livro-imagem img {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  bottom:73px;
+}
+
+/* Detalhes do livro */
+.livro-detalhes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.livro-titulo {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.livro-preco {
+  font-size: 1.8rem;
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos da área de compra */
+.livro-compra {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-quantidade {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-comprar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #1a1919;
+}
+
+.icon-carrinho {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+/* Estilos da área de cálculo de frete */
+.livro-frete {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.input-frete {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.btn-frete {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-frete:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+/* Seção separada da sinopse e ficha técnica */
+.livro-info-extra {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Estilo da Sinopse */
+.livro-sinopse {
+  margin-bottom: 30px;
+}
+
+.livro-sinopse p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Estilo da Ficha Técnica */
+.livro-ficha-tecnica {
+  margin-bottom: 30px;
+}
+
+.livro-ficha-tecnica ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.livro-ficha-tecnica ul li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.livro-ficha-tecnica ul li strong {
+  font-weight: bold;
+}
+
+.secao-titulo {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Seção de Recomendações */
+.livro-recomendacoes {
+  width: 100%;
+  border-radius: 10px;
+  padding: 30px 0;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.livro-recomendacoes > div > a {
+  margin: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.385);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.livro-recomendacoes-linha {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.comprar{
+  display: contents;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .livro-information {
+      grid-template-columns: 1fr;
+  }
+  
+  .btn-comprar,
+  .btn-frete {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  .livro-info-extra,
+  .livro-recomendacoes {
+      padding: 20px;
+  }
+
+}

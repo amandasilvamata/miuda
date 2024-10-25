@@ -1,0 +1,346 @@
+
+.container1{
+    width: 100%;
+    height: px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    margin-top: 50px;
+
+}
+.meuspedidos{
+    color: #000;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+.paipedidos{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container22{
+    width: 80%;
+    height: 1200px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    bakkckground: linear-gradient(114deg, #FFF0CB 45.74%, rgba(232, 92, 59, 0.41) 100%);
+    margin-top: 50px;
+}
+.info1pedidos{
+    width: 1137px;
+    height: 50px;
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+    background: #FFF;
+}
+main .img1pedidos{
+    width: 115px;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .livro1pedidos{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .livro1pedidos .frente1pedidos{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 132px;
+    height: 163px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro1pedidos .inferior1pedidos{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 132px;
+    height: 28px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro1pedidos .folhas1pedidos{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    width: 117px;
+    height: 16px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro1pedidos .marcador1pedidos{
+    position: relative;
+    top: -76px;
+    left: 90px;
+    width: 20px;
+    height: 33px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .img2pedidos{
+    width: 115px;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .livro2pedidos{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .livro2pedidos .frente2pedidos{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 132px;
+    height: 163px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro2pedidos .inferior2pedidos{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 132px;
+    height: 28px; 
+    border-radius: 20px 0px 10px 50px;
+    background:white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro2pedidos .folhas2pedidos{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    width: 117px;
+    height: 16px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro2pedidos .marcador2pedidos{
+    position: relative;
+    top: -76px;
+    left: 90px;
+    width: 20px;
+    height: 33px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .img3pedidos{
+    width: 115px;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .livro3pedidos{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .livro3pedidos .frente3pedidos{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 132px;
+    height: 163px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro3pedidos .inferior3pedidos{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 132px;
+    height: 28px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro3pedidos .folhas3pedidos{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    width: 117px;
+    height: 16px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro3pedidos .marcador3pedidos{
+    position: relative;
+    top: -76px;
+    left: 90px;
+    width: 20px;
+    height: 33px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+.retan1{
+    width: 1137px;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+.barra1{
+    width: 1133px;
+    height: 50px;
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+    background: #FFF;
+}
+.retan2{
+    width: 1137px;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+.barra2{
+    width: 1133px;
+    height: 50px;
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+    background: #FFF;
+}
+.retan3{
+    width: 1137px;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+.barra3{
+    width: 1133px;
+    height: 50px;
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+    background: #FFF;
+}
+main .img2pedidos{
+    width: 115px;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .livro2pedidos{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .livro2 .frente2pedidos{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 132px;
+    height: 163px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro2pedidos .inferior2pedidos{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 132px;
+    height: 28px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro2pedidos .folhas2pedidos{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    width: 117px;
+    height: 16px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro2pedidos .marcador2pedidos{
+    position: relative;
+    top: -76px;
+    left: 90px;
+    width: 20px;
+    height: 33px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+
+.livro1{
+
+}
+.banana1pedidos{
+    display: flex;
+}
+.banana2pedidos{
+    display: flex;
+
+}
+.banana3pedidos{
+    display: flex;
+}
+
+.titulopedidos{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:40px;
+    font-family: "Titillium Web";
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 422px;
+    height: 90px;
+    text-align: center;
+    
+}
+.entregapedidos{
+    margin-left: 40px;
+    font-family: "Titillium Web";
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 422px;
+    height: 90px;
+    text-align: center;
+}
+.rastrearpedidos{
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+
+
+}
+.solicitarpedidos{
+    margin-left: 300px ;
+    margin-top: 50px;
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+
+}
+

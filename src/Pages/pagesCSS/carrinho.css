@@ -1,0 +1,104 @@
+
+.carrinho-item {
+  display: grid;
+  grid-template-columns: 80px 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.livro-capa {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.livro-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.livro-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.quantidade-controle {
+  display: flex;
+  align-items: center;
+}
+
+.quantidade-controle button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quantidade-controle span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.preco,
+.subtotal {
+  font-size: 16px;
+}
+
+.excluir-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.carrinho-container {
+  padding: 20px;
+  min-height: 60%;
+  
+}
+
+.carrinho-total {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.carrinho-total h3 {
+  font-size: 24px;
+}
+
+.continuar-compra-btn {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 16px;
+}
+
+.continuar-compra-btn:hover {
+  background-color: #b93f32;
+}
+
+@media screen and (max-width: 600px) {
+  .carrinho-item {
+    grid-template-columns: 80px 2fr 1fr;
+  }
+  
+  .carrinho-total {
+    flex-direction: column;
+  }
+  
+  .carrinho-total > h3 {
+    margin: 5px;
+  }
+}

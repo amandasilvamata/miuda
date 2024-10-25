@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --laranja : #E85C3B;
+    --azul: #153383;
+    --rosa: #C84567;
+    --amarelo: #FDBB13;
+    --preto: #0A030A;
+
+    --font-size-extragrande: 2rem;  
+    --font-size-grande: 1.5rem;
+    --font-size-medium: 1rem;   
+    --font-size-pequeno: 0.875rem; 
+    --font-size-extrapequeno: 0.75rem; 
+
+}

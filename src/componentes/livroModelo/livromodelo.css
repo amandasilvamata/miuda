@@ -1,0 +1,15 @@
+.imagemLivro{
+    position: absolute;
+    left: 35px;
+    bottom: 191.5px;
+    height: 245px;
+  height: 1;
+  width: 175px;
+  object-fit: cover;
+  border-radius: 10px 20px 0px 0;
+
+    
+}
+.containerGeral{
+    position: relative;
+}

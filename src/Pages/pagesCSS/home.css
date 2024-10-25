@@ -1,0 +1,167 @@
+@import url(../../padronizacao/padronizacao.css);
+
+
+
+.eventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 15px;
+    background-color: var(--rosa);
+    height: 250px;
+}
+
+.sectionEvent1, .sectionEvent2 {
+    border: 10px solid #FDBB13;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    height: 100%;
+}
+
+.sectionEvent1 {
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+
+.container_image {
+    margin: 0 10px;
+    height: 100%;
+}
+
+.container_information {
+    width: 100%;
+    background-color: white;
+    padding: 0 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container_information > p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.container_livros > a {
+    margin: 0 15px;
+}
+
+.container_image img,
+.sectionEvent2 > img {
+    width: 150px;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title_eventos {
+    text-align: center;
+    background-color: var(--rosa);
+    color: white;
+    padding-top: 10px;
+}
+
+.populares > h1,
+.livros > h1 {
+    text-align: center;
+    background-color: var(--amarelo);
+    padding: 10px 0;
+    margin: 0;
+}
+
+.populares > div {
+    padding: 30px 0;
+}
+
+.container_livros {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    flex-wrap: wrap;
+}
+
+.ordem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.ordem_number {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ordem_number:hover {
+    background-color: rgb(217, 217, 217);
+    transform: translateY(-2px);
+}
+
+.ordem_number:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1380px) {
+    .livros > div > a {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .sectionEvent2 {
+        display: none;
+    }
+    .container_information > p {
+        font-size: 70%;
+        text-align: center;
+    }
+    .sectionEvent1 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionEvent1 {
+        width: 90%;
+    }
+    .container_information > p {
+        font-size: 60%;
+        text-align: center;
+    }
+    .container_image img {
+        width: 100%;
+    }
+    .container_image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .sectionEvent1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_information {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .container_information {
+        width: 260px;
+    }
+}
