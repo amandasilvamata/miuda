@@ -1,20 +1,16 @@
-
 import React, { useState } from 'react';
-import axios from 'axios'; // Importa o axios
 import '../Pages/pagesCSS/login.css';
 import Oculto from '../assets/icons/oculto.svg';
 import Visivel from '../assets/icons/naoOculto.svg';
 import Header from '../inc/header/header';
 import Footer from '../inc/footer/footer';
 import { Helmet } from 'react-helmet';
-
 const Cadastro = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [message, setMessage] = useState(''); // Para exibir mensagens de sucesso ou erro
 
   // Alterna a visibilidade da senha
   const togglePasswordVisibility = () => {
@@ -27,42 +23,21 @@ const Cadastro = () => {
   };
 
   // Função chamada ao enviar o formulário
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    
-    // Verifica se as senhas correspondem antes de enviar para o backend
-    if (password !== confirmPassword) {
-      setMessage("As senhas não correspondem.");
-      return;
-    }
-
-    try {
-      // Envia os dados para o backend usando POST
-      const response = await axios.post('http://localhost/miuda/private/register.php', {
-        email,
-        password,
-        confirmPassword,
-      });
-
-      // Verifica a resposta do backend
-      setMessage(response.data);
-    } catch (error) {
-      setMessage("Erro ao cadastrar. Tente novamente mais tarde.");
-      console.error(error);
-    }
+    //  Adicione a lógica para cadastrar o usuário AQUI
   };
 
   return (
     <>
-      <Helmet>
-        <title>Cadastro | Livraria Miuda</title>
-        <meta name="description" content="Pagina de cadastro" />
-      </Helmet>
+    <Helmet>
+                <title>Cadastro | Livraria Miuda</title>
+                <meta name="description" content="Pagina de cadastro" />
+            </Helmet>
       <Header />
       <div className="wrapper">
         <div className="login-container">
           <h2 className="login-title">CADASTRO</h2>
-          {message && <p className="message">{message}</p>} {/* Exibe a mensagem de sucesso ou erro */}
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label>Email</label>
